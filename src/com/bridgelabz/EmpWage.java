@@ -1,6 +1,6 @@
 package com.bridgelabz;
+public class EmpWage  {
 
-public class EmpWage {
     public static final int IS_PART_TIME = 1;
     public static final int IS_FULL_TIME = 2;
     public static final int EMP_RATE_PER_HOUR = 20;
@@ -23,8 +23,6 @@ public class EmpWage {
                 empHrs = 0;
         }
         empWage = empHrs * EMP_RATE_PER_HOUR;
-        System.out.println("Emp Wage: " + empWage);
+        System.out.println("Emp Wage: " +empWage);
     }
-
-
 }
